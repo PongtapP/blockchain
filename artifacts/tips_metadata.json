@@ -11,10 +11,53 @@
 				"type": "constructor"
 			},
 			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "walletAddress",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					}
+				],
+				"name": "addWaitress",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
 				"inputs": [],
 				"name": "addtips",
 				"outputs": [],
 				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "viewWaitress",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "address payable",
+								"name": "walletAddress",
+								"type": "address"
+							},
+							{
+								"internalType": "string",
+								"name": "name",
+								"type": "string"
+							}
+						],
+						"internalType": "struct tips.Waitress[]",
+						"name": "",
+						"type": "tuple[]"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
@@ -59,11 +102,11 @@
 	},
 	"sources": {
 		"tips.sol": {
-			"keccak256": "0xd06b94404339dc8b0681db7d8e003bf1c118aa9a042635ead9dd58bec62ac362",
+			"keccak256": "0x70ce4bf2a84db46426bc2d1271563b3d5269a312c9c98c991f674579db682552",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://0af2e132e914e82d96223274427dd3a69e57253919915303a5e6914b46dae740",
-				"dweb:/ipfs/QmawQnh1LgVwmk7q2hTQeeUxSd7LDuduZ11s9BDkUiR6K6"
+				"bzz-raw://e02fd2e4eed202813b00574fcebce666ca418ae94fbaf43e3a6043d2fa56bed9",
+				"dweb:/ipfs/QmPfyqjWwcmjYnnc9sDVDLJAkm9bsHm3LQHxUddCnBncAP"
 			]
 		}
 	},
