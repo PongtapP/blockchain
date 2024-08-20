@@ -37,6 +37,26 @@
 			},
 			{
 				"inputs": [],
+				"name": "distrubiteTips",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "walletAddress",
+						"type": "address"
+					}
+				],
+				"name": "removeWaitress",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "viewWaitress",
 				"outputs": [
 					{
@@ -102,11 +122,11 @@
 	},
 	"sources": {
 		"tips.sol": {
-			"keccak256": "0x70ce4bf2a84db46426bc2d1271563b3d5269a312c9c98c991f674579db682552",
+			"keccak256": "0xdfc44c72d5b9aa63c632c434762cad73833c0975cd4c315d924daf8198116eb1",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://e02fd2e4eed202813b00574fcebce666ca418ae94fbaf43e3a6043d2fa56bed9",
-				"dweb:/ipfs/QmPfyqjWwcmjYnnc9sDVDLJAkm9bsHm3LQHxUddCnBncAP"
+				"bzz-raw://c8e05676e09c99596c00b38210c43a3f411ff314c0418f373639d37e0283426e",
+				"dweb:/ipfs/QmVJAhoj9cvfJZrc6PjrQoWjn73qszLC1Gv9uaDUoXiAEK"
 			]
 		}
 	},
